@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/tatiana/Área de Trabalho/Kasper/JavaKaspper/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1817043530.index
+579990743.index

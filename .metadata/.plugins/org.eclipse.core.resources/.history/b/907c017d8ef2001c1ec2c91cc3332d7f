@@ -1,0 +1,16 @@
+package PetShop;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		//instanciar um objeto da classe animal
+		Animal a1 = new Animal("Otto", "gato", 2);
+		Animal a2 = new Animal("Totó", "cachorro", 5);
+		Animal a3 = new Animal("Psiu", "passarinho", 2);
+		System.out.println("O animal " + a1.nome +" é um " + a1.especie);
+		System.out.println("O animal " + a2.nome +" é um " + a2.especie);
+		System.out.println("O animal " + a3.nome +" é um " + a3.especie);
+	}
+
+}
