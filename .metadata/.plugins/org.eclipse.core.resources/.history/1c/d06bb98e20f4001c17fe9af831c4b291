@@ -1,0 +1,12 @@
+package Matemática;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Retangulo r1 = new Retangulo("Retângulo","verde", 10,20);
+		System.out.println("Eu sou um " + r1.getNome());
+		System.out.println("Minha área é: " + r1.calcularArea());
+	}
+
+}

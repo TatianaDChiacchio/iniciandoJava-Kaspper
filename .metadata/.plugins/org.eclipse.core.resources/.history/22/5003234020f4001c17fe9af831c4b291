@@ -1,0 +1,19 @@
+package Matemática;
+
+public class Triangulo extends Figura{
+	
+	private double base;
+	private double altura;
+
+	public Triangulo(String nome, String cor, double base, double altura) {
+		super(nome, cor);
+		this.altura =  altura;
+		this.base = base;
+	}
+
+	@Override
+	public double calcularArea() {
+		return (this.base * this.altura)/ 2;
+	}
+
+}
